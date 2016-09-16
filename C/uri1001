@@ -1,0 +1,19 @@
+//EXERCICIO 1001 do URI
+//siga esse modelo para todos os exercicios
+//dica: por algum motivo, o URI quer que voce coloque o \n depois da variavel(no printf obviamente)
+
+#include <stdio.h>
+ 
+int main() { 
+    int A, B, X;
+
+    scanf("%d", &A);
+    scanf("%d", &B);
+
+    X=A+B;
+
+    printf("X = %d\n", X);
+
+    return 0;
+}
+
